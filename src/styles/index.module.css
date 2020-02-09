@@ -1,0 +1,6 @@
+.post-container:hover {
+  @apply border-gray-700;
+}
+.post-container:hover span {
+  @apply font-semibold;
+}

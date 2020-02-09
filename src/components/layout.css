@@ -1,2 +1,6 @@
 @tailwind base;
 @tailwind utilities;
+
+.constrained-container {
+  @apply max-w-3xl mx-auto;
+}

@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
       </Helmet>
       <div>
         <Header />
-        <main className="max-w-3xl mt-10 mx-auto">{children}</main>
+        <main className="mt-10">{children}</main>
       </div>
     </>
   );

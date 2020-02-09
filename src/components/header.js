@@ -9,9 +9,15 @@ const Header = () => {
         FEM Workshop
       </Link>
       {/* navigation */}
-      <nav className="grid items-center">
+      <nav className="grid grid-flow-col col-gap-6 items-center">
+        <Link to="/" className="leading-none">
+          Home
+        </Link>
         <Link to="/about" className="leading-none">
           About
+        </Link>
+        <Link to="/contact" className="leading-none">
+          Contact
         </Link>
       </nav>
     </header>
